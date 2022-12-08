@@ -13,6 +13,16 @@ https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite
 
 To learn more about Radial Basis Function interpolation and why it was used in this work (in lieu of a simple rule-of-mixtures), check out the following video:
 
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=KSHNrELYn9g
+" target="_blank"><img src="http://img.youtube.com/vi/KSHNrELYn9g/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
+
+
+
+
+
   To obtain absorbance-optimized dye solutions, the results of these interpolation functions are compared with the AM1.5G solar irradiance spectrum and evaluated in one of three so-called “fitment conditions”. Three fitment conditions (as well as RBF interpolation functionality) are hard-coded into the “Optimization_Script.py” file (i.e Pearson Correlation, Integral Value & Covariance Value). These are conditions which evaluate the commensurability of a particular LHE spectrum with AM1.5G, albeit with slightly different assumptions. This work has been performed hypothesizing that dye combinations maximizing one of these fitment conditions will also maximize DSSC performance.
 
 To learn more about the different fitment conditions used in this work, check out the following video:
