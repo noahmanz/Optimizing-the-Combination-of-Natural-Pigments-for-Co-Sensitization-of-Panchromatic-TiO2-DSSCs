@@ -22,7 +22,7 @@ alt="Radial Basis Function Interpolation" width="240" height="180" border="10" /
   To learn more about the different fitment conditions used in this work, check out the following video:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=D9Z7w32d_Ts&t=6s
-" target="_blank"><img src="http://img.youtube.com/vi/D9Z7w32d_Ts&t=6s/1.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/D9Z7w32d_Ts/0.jpg" 
 alt="Fitment Conditions for AM1.5G Commensurability" width="240" height="180" border="10" /></a>
 
 # How to Use this Code:
