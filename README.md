@@ -6,7 +6,7 @@ https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite
 
   The included “Optimization_Script.py” file allows users to obtain optimized light harvesting efficiency (LHE) spectra for an arbitrary set of constituent dyes by generating analogs of the “Empirical_Dye_Solutions_Volume_Fractions.csv” and “UVVIS_Absorbance_Anode_Adsorbed” or “UVVIS_Absorbance_Bulk_Solution.csv” files.
   
-  **Note**: The units for the NREL solar irradiance file are nm (column 1) and W*m<sup>-2</sup>*nm<sup>-1</sup>.
+  **Note**: The units for the NREL solar irradiance file are nanometers and W*m<sup>-2</sup>*nm<sup>-1</sup>.
   
   To start learning about DSSC's, check out the following video on my YouTube channel:
   
