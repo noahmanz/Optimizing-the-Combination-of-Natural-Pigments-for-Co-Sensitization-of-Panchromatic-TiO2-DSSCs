@@ -35,6 +35,13 @@ alt="Fitment Conditions for AM1.5G Commensurability" width="240" height="180" bo
 | 301  | 1 | 5 | … | 9 |
 | … | … | … | … | … |
 | 800  | 2 | 6 | … | 5 |
+
+
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
   
   Also populate an analog of the “Empirical_Dye_Solutions_Volume_Fractions.csv” file. This file contains the volume fractions of constituent dyes (the combinations) which produced the data in the UVVIS file. This file is row-oriented, so ensure that the transpose of the header row in the UVVIS file produces the first column in the “Empirical_Dye_Solutions_Volume_Fractions.csv” file. In addition to evaluating any number of combinations, C, you may also populate the Volume Fraction file to include as many constituents as you’d like. If this is more than 6  constituents however, you will have to adjust some pieces of the code. Instructions for how to do this have been written into the script showing a fictitious evaluation of 7 constituent dyes. These rules generalized for D number of constituents. If you are evaluating less than 6 constituent dyes, it is easier to just set the volume fractions of any remaining dyes to 0.
 
