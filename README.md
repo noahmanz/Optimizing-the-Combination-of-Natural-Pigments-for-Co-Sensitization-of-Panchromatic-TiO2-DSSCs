@@ -30,7 +30,7 @@ alt="Fitment Conditions for AM1.5G Commensurability" width="240" height="180" bo
   To perform this optimization, download the .py file, UVVIS_Absorbance files, and “Empirical_Dye_Solutions_Volume_Fractions.csv” file. This code can be run “as-is” and will replicate the published results, however, proprietary data can also be substituted for optimization of new combinations, and the AM1.5G spectrum can also be subtitled for evaluation of DSSC performance in extra-terrestrial conditions. To do this, ensure that your data is formatted in the same manner as in the provided data files. In particular, that the UVVIS data is column-oriented (with each unique dye combination populating a column) where each row represents a particular wavelength. You may include as many combinations as you’d like (See example table below). Ensure however that the wavelength domain is constant for all spectra. This has been set to 300 - 800 nm (by 1 nm). To adjust this, see Line 36 in the .py file. 
   
 | Wavelength (nm)  | Combination 1 Abs. | Combination 2 Abs. | … | Combination C Abs. |
-| ------------- | ------------- | ------------- | ------------- | 
+| --- | --- | --- | --- | 
 | 300  | 3 | 1 | … | 4 | 
 | 301  | 1 | 5 | … | 9 |
 | … | … | … | … | … |
