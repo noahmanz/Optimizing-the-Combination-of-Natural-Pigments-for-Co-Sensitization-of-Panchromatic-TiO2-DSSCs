@@ -5,6 +5,12 @@
 https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite=gscholar&cbl=18750&diss=y
 
   The included “Optimization_Script.py” file allows users to obtain optimized light harvesting efficiency (LHE) spectra for an arbitrary set of constituent dyes by generating analogs of the “Empirical_Dye_Solutions_Volume_Fractions.csv” and “UVVIS_Absorbance_Anode_Adsorbed” or “UVVIS_Absorbance_Bulk_Solution.csv” files.
+  
+  To start learning about DSSC's, check out the following video on my YouTube channel:
+  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=DOefLsocnZQ&t
+" target="_blank"><img src="http://img.youtube.com/vi/DOefLsocnZQ&t/0.jpg" 
+alt="How A DSSC Works" width="480" height="360" border="10" /></a>
 
 
 # About the Repository:
@@ -15,7 +21,7 @@ https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=KSHNrELYn9g
 " target="_blank"><img src="http://img.youtube.com/vi/KSHNrELYn9g/0.jpg" 
-alt="Radial Basis Function Interpolation" width="240" height="180" border="10" /></a>
+alt="Radial Basis Function Interpolation" width="480" height="360" border="10" /></a>
 
   To obtain absorbance-optimized dye solutions, the results of these interpolation functions are compared with the AM1.5G solar irradiance spectrum and evaluated in one of three so-called “fitment conditions”. Three fitment conditions (as well as RBF interpolation functionality) are hard-coded into the “Optimization_Script.py” file (i.e Pearson Correlation, Integral Value & Covariance Value). These are conditions which evaluate the commensurability of a particular LHE spectrum with AM1.5G, albeit with slightly different assumptions. This work has been performed hypothesizing that dye combinations maximizing one of these fitment conditions will also maximize DSSC performance.
 
@@ -23,7 +29,7 @@ alt="Radial Basis Function Interpolation" width="240" height="180" border="10" /
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=D9Z7w32d_Ts&t
 " target="_blank"><img src="http://img.youtube.com/vi/D9Z7w32d_Ts/0.jpg" 
-alt="Fitment Conditions for AM1.5G Commensurability" width="240" height="180" border="10" /></a>
+alt="Fitment Conditions for AM1.5G Commensurability" width="480" height="360" border="10" /></a>
 
 # How to Use this Code:
 
