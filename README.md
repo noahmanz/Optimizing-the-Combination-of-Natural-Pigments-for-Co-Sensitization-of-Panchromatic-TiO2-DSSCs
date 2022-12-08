@@ -11,22 +11,19 @@ https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite
 
   The premise of this work is to use empirical UV/VIS absorbance data to construct higher-dimensional surfaces which interpolate the measured data. This has been achieved with Radial Basis Function (RBF) Interpolation from the Scipy Interpolate package. For example, given a set of 6 constituent dyes, this would be a surface in R6 which interpolates all measured absorbance values at a given wavelength. Assuming that absorbance data is available for C combinations of these 6 constituent dyes, this would be a function interpolating C points in R6. This process is repeated for all wavelengths for which data is available. Then, each interpolation function can be sampled and concatenated to yield a spectrum. These interpolation functions can be sampled at any point (a point in R6) to produce estimates of the absorbance profile for that particular combination. As C increases, the accuracy of the model, and therefore the accuracy of this estimate, also increase. This allows for evaluation of potentially thousands of dye combinations from a more modest empirical database.
 
-To learn more about Radial Basis Function interpolation and why it was used in this work (in lieu of a simple rule-of-mixtures), check out the following video:
-
+  To learn more about Radial Basis Function interpolation and why it was used in this work (in lieu of a simple rule-of-mixtures), check out the following video on my YouTube channel:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=KSHNrELYn9g
 " target="_blank"><img src="http://img.youtube.com/vi/KSHNrELYn9g/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
-
-
-
-
+alt="Radial Basis Function Interpolation" width="240" height="180" border="10" /></a>
 
   To obtain absorbance-optimized dye solutions, the results of these interpolation functions are compared with the AM1.5G solar irradiance spectrum and evaluated in one of three so-called “fitment conditions”. Three fitment conditions (as well as RBF interpolation functionality) are hard-coded into the “Optimization_Script.py” file (i.e Pearson Correlation, Integral Value & Covariance Value). These are conditions which evaluate the commensurability of a particular LHE spectrum with AM1.5G, albeit with slightly different assumptions. This work has been performed hypothesizing that dye combinations maximizing one of these fitment conditions will also maximize DSSC performance.
 
-To learn more about the different fitment conditions used in this work, check out the following video:
+  To learn more about the different fitment conditions used in this work, check out the following video:
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=D9Z7w32d_Ts&t=6s
+" target="_blank"><img src="http://img.youtube.com/vi/D9Z7w32d_Ts&t=6s/0.jpg" 
+alt="Fitment Conditions for AM1.5G Commensurability" width="240" height="180" border="10" /></a>
 
 # How to Use this Code:
 
