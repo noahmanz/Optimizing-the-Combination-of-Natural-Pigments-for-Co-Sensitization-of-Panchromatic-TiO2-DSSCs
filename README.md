@@ -8,8 +8,8 @@ https://www.proquest.com/openview/5e34518343751bc814c51ea0720afd66/1?pq-origsite
   
   To start learning about DSSC's, check out the following video on my YouTube channel:
   
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=DOefLsocnZQ&t
-" target="_blank"><img src="http://img.youtube.com/vi/DOefLsocnZQ&t/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=DOefLsocnZQ
+" target="_blank"><img src="http://img.youtube.com/vi/DOefLsocnZQ/0.jpg" 
 alt="How A DSSC Works" width="480" height="360" border="10" /></a>
 
 
